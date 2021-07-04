@@ -17,7 +17,6 @@ ActiveRecord::Schema.define(version: 2021_06_30_110046) do
     t.string "url"
     t.string "abstract"
     t.string "published_date"
-    t.string "media_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
